@@ -20,7 +20,7 @@ export const register = async (user) => {
     try {
         const response = await fetch(`${REACT_APP_BE_URL}/register`,{
             method: "POST",
-            headers: myHeaders,
+            headers: {"Content-Type": "application/json"},
             body: JSON.stringify(user)
         }),
     } catch (error) {
