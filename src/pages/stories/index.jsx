@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, ListGroup } from "react-bootstrap";
-import { editArticle, deleteArticle, getArticles } from "../../api/index";
+import { editArticle, deleteArticle, getArticles } from "../../api/articles";
 import uniqid from "uniqid"
 
 function Stories () {

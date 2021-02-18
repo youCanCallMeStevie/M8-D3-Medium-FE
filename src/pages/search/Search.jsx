@@ -7,7 +7,7 @@ import articles from '../home/articles.json'
 import TagsList from '../../components/TagsList/TagsList';
 import queryString from 'query-string';
 
-import{getArticles} from "../../api/index"
+import{getArticles} from "../../api/articles"
 
 
 export default class Search extends React.Component {

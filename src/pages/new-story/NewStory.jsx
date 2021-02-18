@@ -6,7 +6,7 @@ import { Button } from "react-bootstrap";
 import "./styles.scss";
 import CategoryPicker from "../../components/CategoryPicker";
 
-import { postArticle } from "../../api/index";
+import { postArticle } from "../../api/articles";
 
 export default class NewStory extends Component {
   state = {

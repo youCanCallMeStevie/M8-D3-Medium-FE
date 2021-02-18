@@ -7,7 +7,7 @@ import { IoLogoTwitter, IoLogoLinkedin, IoLogoFacebook } from "react-icons/io";
 import { IoBookmarkOutline } from "react-icons/io5";
 import Reactions from "../../components/Reactions/Reactions"
 
-import{getArticles} from "../../api/index"
+import{getArticles} from "../../api/articles"
 
 class Read extends Component {
   render() {

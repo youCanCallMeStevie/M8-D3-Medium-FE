@@ -5,7 +5,7 @@ import './styles.scss'
 
 import topics from './data'
 
-import { getAllArticles } from "../../api/index";
+import { getAllArticles } from "../../api/articles";
 
 export default class Topics extends React.Component {
   render = () => (

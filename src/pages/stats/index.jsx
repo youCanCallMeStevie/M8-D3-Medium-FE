@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container } from 'react-bootstrap'
 
-import{getArticles} from "../../api/index"
+import{getArticles} from "../../api/articles"
 
 
 export default class Stats extends Component {

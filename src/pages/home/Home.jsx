@@ -9,7 +9,7 @@ import articles from "./articles.json";
 import "./styles.scss";
 import uniqid from "uniqid";
 
-import { getArticles } from "../../api/index";
+import { getArticles } from "../../api/articles";
 
 export default class Home extends Component {
   state = {
