@@ -10,6 +10,8 @@ import Search from "./pages/search/Search";
 import Stats from "./pages/stats";
 import Stories from "./pages/stories";
 import LogIn from "./pages/LogIn/LogIn";
+import LogIn from "./pages/Register/Register";
+
 import uniqid from "uniqid";
 
 const routes = [
@@ -20,7 +22,8 @@ const routes = [
   { path: "/search", component: Search },
   { path: "/stats", component: Stats },
   { path: "/stories", component: Stories },
-  { path: "/login", component: LogIn }
+  { path: "/login", component: LogIn },
+  { path: "/register", component: Register }
 ]
 
 function App() {
