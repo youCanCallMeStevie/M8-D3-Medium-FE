@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../LogIn/LogIn.css";
 
-const LogIn = ({  }) => {
+const LogIn = ({ history }) => {
   const [credentials, setCredentials] = useState({});
 
   const handleSubmit = async () => {
